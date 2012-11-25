@@ -18,7 +18,8 @@
 		C30B5BF1165F7C4900E8C0D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30B5BF0165F7C4900E8C0D7 /* Default-568h@2x.png */; };
 		C30B5BF4165F7C4900E8C0D7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30B5BF2165F7C4900E8C0D7 /* MainStoryboard_iPhone.storyboard */; };
 		C30B5BF7165F7C4900E8C0D7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30B5BF5165F7C4900E8C0D7 /* MainStoryboard_iPad.storyboard */; };
-		C30B5BFA165F7C4900E8C0D7 /* WYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30B5BF9165F7C4900E8C0D7 /* WYViewController.m */; };
+		C3C70BA616619A4900342949 /* WheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA516619A4900342949 /* WheelViewController.m */; };
+		C3C70BA916619C1F00342949 /* WheelOfYearDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +38,10 @@
 		C30B5BF0165F7C4900E8C0D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C30B5BF3165F7C4900E8C0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		C30B5BF6165F7C4900E8C0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		C30B5BF8165F7C4900E8C0D7 /* WYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYViewController.h; sourceTree = "<group>"; };
-		C30B5BF9165F7C4900E8C0D7 /* WYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYViewController.m; sourceTree = "<group>"; };
+		C3C70BA416619A4900342949 /* WheelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelViewController.h; sourceTree = "<group>"; };
+		C3C70BA516619A4900342949 /* WheelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelViewController.m; sourceTree = "<group>"; };
+		C3C70BA716619C1F00342949 /* WheelOfYearDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelOfYearDetailViewController.h; sourceTree = "<group>"; };
+		C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelOfYearDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,18 +123,20 @@
 		C32CD357165F7CCC001804EB /* User Layer */ = {
 			isa = PBXGroup;
 			children = (
-				C32CD358165F7CD3001804EB /* Main Section */,
+				C32CD358165F7CD3001804EB /* WheelOfYear */,
 			);
 			name = "User Layer";
 			sourceTree = "<group>";
 		};
-		C32CD358165F7CD3001804EB /* Main Section */ = {
+		C32CD358165F7CD3001804EB /* WheelOfYear */ = {
 			isa = PBXGroup;
 			children = (
-				C30B5BF8165F7C4900E8C0D7 /* WYViewController.h */,
-				C30B5BF9165F7C4900E8C0D7 /* WYViewController.m */,
+				C3C70BA416619A4900342949 /* WheelViewController.h */,
+				C3C70BA516619A4900342949 /* WheelViewController.m */,
+				C3C70BA716619C1F00342949 /* WheelOfYearDetailViewController.h */,
+				C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */,
 			);
-			name = "Main Section";
+			name = WheelOfYear;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +209,8 @@
 			files = (
 				C30B5BE7165F7C4900E8C0D7 /* main.m in Sources */,
 				C30B5BEB165F7C4900E8C0D7 /* WYAppDelegate.m in Sources */,
-				C30B5BFA165F7C4900E8C0D7 /* WYViewController.m in Sources */,
+				C3C70BA616619A4900342949 /* WheelViewController.m in Sources */,
+				C3C70BA916619C1F00342949 /* WheelOfYearDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
