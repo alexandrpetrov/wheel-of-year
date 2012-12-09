@@ -18,6 +18,12 @@
 		C30B5BF1165F7C4900E8C0D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30B5BF0165F7C4900E8C0D7 /* Default-568h@2x.png */; };
 		C30B5BF4165F7C4900E8C0D7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30B5BF2165F7C4900E8C0D7 /* MainStoryboard_iPhone.storyboard */; };
 		C30B5BF7165F7C4900E8C0D7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30B5BF5165F7C4900E8C0D7 /* MainStoryboard_iPad.storyboard */; };
+		C3C1D16D16751E25001EA075 /* wheel_background.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D16C16751E25001EA075 /* wheel_background.png */; };
+		C3C1D17116751F35001EA075 /* wheel_image.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D17016751F35001EA075 /* wheel_image.png */; };
+		C3C1D17C16752523001EA075 /* tab_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D17916752523001EA075 /* tab_sun.png */; };
+		C3C1D18416752819001EA075 /* tab_moon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D18316752819001EA075 /* tab_moon.png */; };
+		C3C1D18D16752C01001EA075 /* tab_calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D18B16752C01001EA075 /* tab_calendar.png */; };
+		C3C1D18E16752C01001EA075 /* tab_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D18C16752C01001EA075 /* tab_wheel.png */; };
 		C3C70BA616619A4900342949 /* WheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA516619A4900342949 /* WheelViewController.m */; };
 		C3C70BA916619C1F00342949 /* WheelOfYearDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */; };
 /* End PBXBuildFile section */
@@ -38,6 +44,12 @@
 		C30B5BF0165F7C4900E8C0D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C30B5BF3165F7C4900E8C0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		C30B5BF6165F7C4900E8C0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C3C1D16C16751E25001EA075 /* wheel_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel_background.png; sourceTree = "<group>"; };
+		C3C1D17016751F35001EA075 /* wheel_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel_image.png; sourceTree = "<group>"; };
+		C3C1D17916752523001EA075 /* tab_sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_sun.png; sourceTree = "<group>"; };
+		C3C1D18316752819001EA075 /* tab_moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_moon.png; sourceTree = "<group>"; };
+		C3C1D18B16752C01001EA075 /* tab_calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_calendar.png; sourceTree = "<group>"; };
+		C3C1D18C16752C01001EA075 /* tab_wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_wheel.png; sourceTree = "<group>"; };
 		C3C70BA416619A4900342949 /* WheelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelViewController.h; sourceTree = "<group>"; };
 		C3C70BA516619A4900342949 /* WheelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelViewController.m; sourceTree = "<group>"; };
 		C3C70BA716619C1F00342949 /* WheelOfYearDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelOfYearDetailViewController.h; sourceTree = "<group>"; };
@@ -88,6 +100,7 @@
 		C30B5BE0165F7C4900E8C0D7 /* Wheel of Year */ = {
 			isa = PBXGroup;
 			children = (
+				C3C1D16716751793001EA075 /* Resources */,
 				C32CD355165F7CBB001804EB /* Classes */,
 				C30B5BE9165F7C4900E8C0D7 /* WYAppDelegate.h */,
 				C30B5BEA165F7C4900E8C0D7 /* WYAppDelegate.m */,
@@ -137,6 +150,35 @@
 				C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */,
 			);
 			name = WheelOfYear;
+			sourceTree = "<group>";
+		};
+		C3C1D16716751793001EA075 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3C1D169167517A3001EA075 /* iPhone */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C3C1D169167517A3001EA075 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				C3C1D172167520C3001EA075 /* Tabs */,
+				C3C1D17016751F35001EA075 /* wheel_image.png */,
+				C3C1D16C16751E25001EA075 /* wheel_background.png */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		C3C1D172167520C3001EA075 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				C3C1D18B16752C01001EA075 /* tab_calendar.png */,
+				C3C1D18C16752C01001EA075 /* tab_wheel.png */,
+				C3C1D18316752819001EA075 /* tab_moon.png */,
+				C3C1D17916752523001EA075 /* tab_sun.png */,
+			);
+			name = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +239,12 @@
 				C30B5BF1165F7C4900E8C0D7 /* Default-568h@2x.png in Resources */,
 				C30B5BF4165F7C4900E8C0D7 /* MainStoryboard_iPhone.storyboard in Resources */,
 				C30B5BF7165F7C4900E8C0D7 /* MainStoryboard_iPad.storyboard in Resources */,
+				C3C1D16D16751E25001EA075 /* wheel_background.png in Resources */,
+				C3C1D17116751F35001EA075 /* wheel_image.png in Resources */,
+				C3C1D17C16752523001EA075 /* tab_sun.png in Resources */,
+				C3C1D18416752819001EA075 /* tab_moon.png in Resources */,
+				C3C1D18D16752C01001EA075 /* tab_calendar.png in Resources */,
+				C3C1D18E16752C01001EA075 /* tab_wheel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

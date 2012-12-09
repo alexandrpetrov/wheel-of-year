@@ -13,5 +13,5 @@
 }
 
 -(IBAction) buttonHolydayPressed: (UIButton *) sender;
-
+-(IBAction) buttonHolydayHighlighted: (UIButton *) sender;
 @end
