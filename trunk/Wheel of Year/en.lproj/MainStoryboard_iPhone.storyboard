@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2w8-oM-ted">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12A269" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2w8-oM-ted">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
         <!--View Controller - Moon-->
@@ -57,8 +57,8 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wheel_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="f2D-tx-ZKz"/>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wheel_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="hiI-gK-lkV"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wheel_background_normal.png" translatesAutoresizingMaskIntoConstraints="NO" id="f2D-tx-ZKz"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wheel_image_normal.png" translatesAutoresizingMaskIntoConstraints="NO" id="hiI-gK-lkV"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfD-ko-XN7">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="74" id="XJh-F3-Jco"/>
@@ -239,6 +239,8 @@
                     <tabBarItem key="tabBarItem" title="Wheel" image="tab_wheel.png" id="kDy-er-apw"/>
                     <navigationItem key="navigationItem" id="5ig-J7-49o"/>
                     <connections>
+                        <outlet property="_backgroundImage" destination="f2D-tx-ZKz" id="aJX-cG-AhM"/>
+                        <outlet property="_wheelImage" destination="hiI-gK-lkV" id="WnJ-kd-Ucl"/>
                         <segue destination="R59-0R-Oxi" kind="push" identifier="showHolydayDetailView" id="QWs-qK-LoW"/>
                     </connections>
                 </viewController>
@@ -322,9 +324,29 @@
         <image name="tab_moon.png" width="32" height="32"/>
         <image name="tab_sun.png" width="32" height="32"/>
         <image name="tab_wheel.png" width="32" height="32"/>
-        <image name="wheel_background.png" width="640" height="960"/>
-        <image name="wheel_image.png" width="640" height="960"/>
+        <image name="wheel_background_normal.png" width="640" height="792"/>
+        <image name="wheel_image_normal.png" width="640" height="792"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="WheelOfYearDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WheelOfYearDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="_titleLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="WheelViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WheelViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="buttonHolydayHighlighted:" candidateClass="UIButton"/>
+                <relationship kind="action" name="buttonHolydayPressed:" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="_backgroundImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="_wheelImage" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

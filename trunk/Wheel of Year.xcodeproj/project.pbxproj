@@ -26,6 +26,8 @@
 		C3C1D18E16752C01001EA075 /* tab_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D18C16752C01001EA075 /* tab_wheel.png */; };
 		C3C70BA616619A4900342949 /* WheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA516619A4900342949 /* WheelViewController.m */; };
 		C3C70BA916619C1F00342949 /* WheelOfYearDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */; };
+		E2C0D9D716C8227700BF6FAA /* wheel_image_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C0D9D616C8227700BF6FAA /* wheel_image_normal.png */; };
+		E2C0D9D916C8228B00BF6FAA /* wheel_background_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C0D9D816C8228B00BF6FAA /* wheel_background_normal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		C3C70BA516619A4900342949 /* WheelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelViewController.m; sourceTree = "<group>"; };
 		C3C70BA716619C1F00342949 /* WheelOfYearDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelOfYearDetailViewController.h; sourceTree = "<group>"; };
 		C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelOfYearDetailViewController.m; sourceTree = "<group>"; };
+		E2C0D9D616C8227700BF6FAA /* wheel_image_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel_image_normal.png; sourceTree = "<group>"; };
+		E2C0D9D816C8228B00BF6FAA /* wheel_background_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel_background_normal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,8 @@
 				C3C1D172167520C3001EA075 /* Tabs */,
 				C3C1D17016751F35001EA075 /* wheel_image.png */,
 				C3C1D16C16751E25001EA075 /* wheel_background.png */,
+				E2C0D9D816C8228B00BF6FAA /* wheel_background_normal.png */,
+				E2C0D9D616C8227700BF6FAA /* wheel_image_normal.png */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -245,6 +251,8 @@
 				C3C1D18416752819001EA075 /* tab_moon.png in Resources */,
 				C3C1D18D16752C01001EA075 /* tab_calendar.png in Resources */,
 				C3C1D18E16752C01001EA075 /* tab_wheel.png in Resources */,
+				E2C0D9D716C8227700BF6FAA /* wheel_image_normal.png in Resources */,
+				E2C0D9D916C8228B00BF6FAA /* wheel_background_normal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
