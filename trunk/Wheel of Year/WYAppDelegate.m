@@ -12,6 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self initializeStoryBoardBasedOnScreenSize];
     // Override point for customization after application launch.
     return YES;
 }
@@ -41,6 +42,44 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void)initializeStoryBoardBasedOnScreenSize {
+    
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone)
+    {    // The iOS device = iPhone or iPod Touch
+        CGSize iOSDeviceScreenSize = [[UIScreen mainScreen] bounds].size;
+        UIStoryboard *iPhoneStoryboard = nil;
+        if (iOSDeviceScreenSize.height == 480){
+            // iPhone 3GS, 4, and 4S and iPod Touch 3rd and 4th generation: 3.5 inch screen (diagonally measured)
+            iPhoneStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone" bundle:nil];
+            
+        }
+        if (iOSDeviceScreenSize.height == 568){
+            // iPhone 5 and iPod Touch 5th generation: 4 inch screen (diagonally measured)
+            iPhoneStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard_iPhone5" bundle:nil];
+        }
+        // Instantiate the initial view controller object from the storyboard
+        UIViewController *initialViewController = [iPhoneStoryboard instantiateInitialViewController];
+        
+        // Instantiate a UIWindow object and initialize it with the screen size of the iOS device
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        
+        // Set the initial view controller to be the root view controller of the window object
+        self.window.rootViewController  = initialViewController;
+        
+        // Set the window object to be the key window and show it
+        [self.window makeKeyAndVisible];
+        
+    } else if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+        
+    {   // The iOS device = iPad
+        
+        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+        UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
+        splitViewController.delegate = (id)navigationController.topViewController;
+        
+    }
 }
 
 @end

@@ -11,14 +11,6 @@
 @interface WheelViewController : UIViewController {
     IBOutlet UIImageView *_backgroundImage;
     IBOutlet UIImageView *_wheelImage;
-    IBOutlet UIButton *_samheinButton;
-    IBOutlet UIButton *_midwinterButton;
-    IBOutlet UIButton *_imbolcButton;
-    IBOutlet UIButton *_ostaraButton;
-    IBOutlet UIButton *_beltaneButton;
-    IBOutlet UIButton *_midsummerButton;
-    IBOutlet UIButton *_lughnasadhButton;
-    IBOutlet UIButton *_mabonButton;
 }
 
 -(IBAction) buttonHolydayPressed: (UIButton *) sender;

@@ -26,8 +26,11 @@
 		C3C1D18E16752C01001EA075 /* tab_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D18C16752C01001EA075 /* tab_wheel.png */; };
 		C3C70BA616619A4900342949 /* WheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA516619A4900342949 /* WheelViewController.m */; };
 		C3C70BA916619C1F00342949 /* WheelOfYearDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */; };
+		E217469016C8444F0041A9E5 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E217468F16C8444F0041A9E5 /* DataManager.m */; };
 		E2C0D9D716C8227700BF6FAA /* wheel_image_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C0D9D616C8227700BF6FAA /* wheel_image_normal.png */; };
 		E2C0D9D916C8228B00BF6FAA /* wheel_background_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C0D9D816C8228B00BF6FAA /* wheel_background_normal.png */; };
+		E2C0D9DD16C82D2300BF6FAA /* WheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C0D9DC16C82D2300BF6FAA /* WheelView.m */; };
+		E2C0D9DF16C837ED00BF6FAA /* MainStoryboard_iPhone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C0D9DE16C837ED00BF6FAA /* MainStoryboard_iPhone5.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,8 +59,14 @@
 		C3C70BA516619A4900342949 /* WheelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelViewController.m; sourceTree = "<group>"; };
 		C3C70BA716619C1F00342949 /* WheelOfYearDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelOfYearDetailViewController.h; sourceTree = "<group>"; };
 		C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelOfYearDetailViewController.m; sourceTree = "<group>"; };
+		E217468C16C841700041A9E5 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E217468E16C8444F0041A9E5 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		E217468F16C8444F0041A9E5 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 		E2C0D9D616C8227700BF6FAA /* wheel_image_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel_image_normal.png; sourceTree = "<group>"; };
 		E2C0D9D816C8228B00BF6FAA /* wheel_background_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel_background_normal.png; sourceTree = "<group>"; };
+		E2C0D9DB16C82D2300BF6FAA /* WheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelView.h; sourceTree = "<group>"; };
+		E2C0D9DC16C82D2300BF6FAA /* WheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelView.m; sourceTree = "<group>"; };
+		E2C0D9DE16C837ED00BF6FAA /* MainStoryboard_iPhone5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone5.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +113,13 @@
 		C30B5BE0165F7C4900E8C0D7 /* Wheel of Year */ = {
 			isa = PBXGroup;
 			children = (
+				E217468816C840760041A9E5 /* Data */,
 				C3C1D16716751793001EA075 /* Resources */,
 				C32CD355165F7CBB001804EB /* Classes */,
 				C30B5BE9165F7C4900E8C0D7 /* WYAppDelegate.h */,
 				C30B5BEA165F7C4900E8C0D7 /* WYAppDelegate.m */,
 				C30B5BF2165F7C4900E8C0D7 /* MainStoryboard_iPhone.storyboard */,
+				E2C0D9DE16C837ED00BF6FAA /* MainStoryboard_iPhone5.storyboard */,
 				C30B5BF5165F7C4900E8C0D7 /* MainStoryboard_iPad.storyboard */,
 				C30B5BE1165F7C4900E8C0D7 /* Supporting Files */,
 			);
@@ -148,6 +159,7 @@
 		C32CD358165F7CD3001804EB /* WheelOfYear */ = {
 			isa = PBXGroup;
 			children = (
+				E2C0D9DA16C82D0600BF6FAA /* Subviews */,
 				C3C70BA416619A4900342949 /* WheelViewController.h */,
 				C3C70BA516619A4900342949 /* WheelViewController.m */,
 				C3C70BA716619C1F00342949 /* WheelOfYearDetailViewController.h */,
@@ -185,6 +197,33 @@
 				C3C1D17916752523001EA075 /* tab_sun.png */,
 			);
 			name = Tabs;
+			sourceTree = "<group>";
+		};
+		E217468816C840760041A9E5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E217468D16C8442F0041A9E5 /* Data Manager */,
+				E217468C16C841700041A9E5 /* data.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		E217468D16C8442F0041A9E5 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E217468E16C8444F0041A9E5 /* DataManager.h */,
+				E217468F16C8444F0041A9E5 /* DataManager.m */,
+			);
+			name = "Data Manager";
+			sourceTree = "<group>";
+		};
+		E2C0D9DA16C82D0600BF6FAA /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E2C0D9DB16C82D2300BF6FAA /* WheelView.h */,
+				E2C0D9DC16C82D2300BF6FAA /* WheelView.m */,
+			);
+			name = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +292,7 @@
 				C3C1D18E16752C01001EA075 /* tab_wheel.png in Resources */,
 				E2C0D9D716C8227700BF6FAA /* wheel_image_normal.png in Resources */,
 				E2C0D9D916C8228B00BF6FAA /* wheel_background_normal.png in Resources */,
+				E2C0D9DF16C837ED00BF6FAA /* MainStoryboard_iPhone5.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +307,8 @@
 				C30B5BEB165F7C4900E8C0D7 /* WYAppDelegate.m in Sources */,
 				C3C70BA616619A4900342949 /* WheelViewController.m in Sources */,
 				C3C70BA916619C1F00342949 /* WheelOfYearDetailViewController.m in Sources */,
+				E2C0D9DD16C82D2300BF6FAA /* WheelView.m in Sources */,
+				E217469016C8444F0041A9E5 /* DataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

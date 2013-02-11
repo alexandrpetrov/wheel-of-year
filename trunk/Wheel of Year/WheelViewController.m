@@ -27,20 +27,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    CGSize screenSize = [[UIScreen mainScreen] bounds].size;
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
-        if (screenSize.height > 480.0f) {
-            _backgroundImage.image = [UIImage imageNamed: @"wheel_background"];
-            _wheelImage.image = [UIImage imageNamed: @"wheel_image"];
-            /*Do iPhone 5 stuff here.*/
-        } else {
-            _backgroundImage.image = [UIImage imageNamed: @"wheel_background_normal"];
-            _wheelImage.image = [UIImage imageNamed: @"wheel_image_normal"];
-            /*Do iPhone Classic stuff here.*/
-        }
-    } else {
-        /*Do iPad stuff here.*/
-    }
 	// Do any additional setup after loading the view.
 }
 
@@ -56,7 +42,8 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     WheelOfYearDetailViewController *targetController = (WheelOfYearDetailViewController *) segue.destinationViewController;
-    targetController.holyday = ((UIButton *) sender).titleLabel.text;
+    NSArray *holidays = @[@"Samhein", @"Midwinter", @"Imbolc", @"Ostara", @"Beltane", @"Midsummer", @"Lughnasad", @"Mabon"];
+    targetController.holyday = [holidays objectAtIndex: ((UIButton *) sender).tag - 1];
     [super prepareForSegue: segue sender: sender];
 }
 
