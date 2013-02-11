@@ -53,7 +53,7 @@
         <scene sceneID="ld6-8G-3d0">
             <objects>
                 <viewController id="abx-ye-Yjp" customClass="WheelViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ZxH-7I-Q9G" customClass="WheelView">
+                    <view key="view" contentMode="scaleToFill" id="ZxH-7I-Q9G">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -62,7 +62,7 @@
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfD-ko-XN7">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="71" id="BOD-qE-ueO"/>
-                                    <constraint firstAttribute="height" constant="68" id="u6K-7F-5C0"/>
+                                    <constraint firstAttribute="height" constant="54" id="KZw-8a-B1n"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal">
@@ -198,33 +198,32 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="yZ7-tz-TBJ" secondAttribute="bottom" constant="87" id="0UX-vv-7Zq"/>
-                            <constraint firstItem="dCF-2t-2ix" firstAttribute="leading" secondItem="ZxH-7I-Q9G" secondAttribute="leading" constant="5" id="7Ck-DF-qys"/>
-                            <constraint firstItem="hfD-ko-XN7" firstAttribute="top" secondItem="ZxH-7I-Q9G" secondAttribute="top" constant="52" id="8ES-v3-4hF"/>
+                            <constraint firstItem="dCF-2t-2ix" firstAttribute="bottom" secondItem="OU0-Xn-YD9" secondAttribute="bottom" type="default" id="DLO-cc-w5b"/>
                             <constraint firstItem="avU-TW-N7c" firstAttribute="top" secondItem="ZxH-7I-Q9G" secondAttribute="top" constant="25" id="DWg-1X-6eW"/>
+                            <constraint firstAttribute="trailing" secondItem="OU0-Xn-YD9" secondAttribute="trailing" constant="5" id="Ejz-tq-tYv"/>
                             <constraint firstItem="f2D-tx-ZKz" firstAttribute="leading" secondItem="ZxH-7I-Q9G" secondAttribute="leading" type="default" id="Jhj-eG-EdV"/>
                             <constraint firstItem="avU-TW-N7c" firstAttribute="leading" secondItem="ZxH-7I-Q9G" secondAttribute="leading" constant="114" id="MHX-M9-rNT"/>
-                            <constraint firstAttribute="trailing" secondItem="yZ7-tz-TBJ" secondAttribute="trailing" constant="19" id="Msu-a4-PP2"/>
                             <constraint firstItem="hfD-ko-XN7" firstAttribute="leading" secondItem="1Lf-xh-5rB" secondAttribute="leading" type="default" id="OXN-FE-Y5y"/>
-                            <constraint firstAttribute="trailing" secondItem="lQR-hH-pzn" secondAttribute="trailing" constant="32" id="Q9B-MU-UTb"/>
                             <constraint firstAttribute="bottom" secondItem="9fV-gg-K0q" secondAttribute="bottom" constant="55" id="Qfc-Tf-fKe"/>
                             <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="1Lf-xh-5rB" secondAttribute="bottom" constant="112" type="user" id="RtJ-ab-oxV"/>
                             <constraint firstItem="avU-TW-N7c" firstAttribute="leading" secondItem="9fV-gg-K0q" secondAttribute="leading" type="default" id="SLz-f9-fKo"/>
                             <constraint firstItem="hfD-ko-XN7" firstAttribute="trailing" secondItem="1Lf-xh-5rB" secondAttribute="trailing" priority="1" type="user" id="VRX-du-0Z8"/>
+                            <constraint firstItem="lQR-hH-pzn" firstAttribute="top" secondItem="ZxH-7I-Q9G" secondAttribute="top" constant="49" id="WCB-SB-ZOx"/>
                             <constraint firstItem="f2D-tx-ZKz" firstAttribute="trailing" secondItem="ZxH-7I-Q9G" secondAttribute="trailing" type="default" id="YLn-Rw-lNe"/>
-                            <constraint firstItem="dCF-2t-2ix" firstAttribute="baseline" secondItem="avU-TW-N7c" secondAttribute="baseline" type="default" id="YuG-v2-1pg"/>
+                            <constraint firstItem="lQR-hH-pzn" firstAttribute="leading" secondItem="yZ7-tz-TBJ" secondAttribute="leading" type="default" id="aEU-nR-kKU"/>
+                            <constraint firstItem="dCF-2t-2ix" firstAttribute="leading" secondItem="ZxH-7I-Q9G" secondAttribute="leading" type="default" id="abJ-FF-2Y6"/>
                             <constraint firstItem="hiI-gK-lkV" firstAttribute="top" secondItem="ZxH-7I-Q9G" secondAttribute="top" type="default" id="b7K-pO-OI6"/>
+                            <constraint firstAttribute="trailing" secondItem="yZ7-tz-TBJ" secondAttribute="trailing" constant="19" id="b7Q-kW-Pip"/>
                             <constraint firstItem="hfD-ko-XN7" firstAttribute="leading" secondItem="ZxH-7I-Q9G" secondAttribute="leading" constant="25" id="cEK-lO-UWA"/>
-                            <constraint firstItem="lQR-hH-pzn" firstAttribute="top" secondItem="hfD-ko-XN7" secondAttribute="top" type="default" id="eTC-lz-HRb"/>
+                            <constraint firstAttribute="bottom" secondItem="yZ7-tz-TBJ" secondAttribute="bottom" constant="87" id="fN2-u7-RyA"/>
                             <constraint firstItem="f2D-tx-ZKz" firstAttribute="top" secondItem="ZxH-7I-Q9G" secondAttribute="top" type="default" id="fTf-cU-FZK"/>
-                            <constraint firstItem="OU0-Xn-YD9" firstAttribute="trailing" secondItem="ZxH-7I-Q9G" secondAttribute="trailing" type="default" id="gP5-C1-si1"/>
                             <constraint firstItem="f2D-tx-ZKz" firstAttribute="bottom" secondItem="ZxH-7I-Q9G" secondAttribute="bottom" type="default" id="hKb-eW-GOH"/>
                             <constraint firstAttribute="bottom" secondItem="1Lf-xh-5rB" secondAttribute="bottom" constant="70" id="hQD-RA-Dpe"/>
                             <constraint firstItem="hiI-gK-lkV" firstAttribute="trailing" secondItem="ZxH-7I-Q9G" secondAttribute="trailing" type="default" id="lfY-Ej-aAa"/>
                             <constraint firstItem="hiI-gK-lkV" firstAttribute="bottom" secondItem="ZxH-7I-Q9G" secondAttribute="bottom" type="default" id="lqG-89-VEf"/>
-                            <constraint firstItem="dCF-2t-2ix" firstAttribute="top" secondItem="hfD-ko-XN7" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="mHg-tS-kaP"/>
-                            <constraint firstItem="OU0-Xn-YD9" firstAttribute="top" secondItem="lQR-hH-pzn" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qoU-oF-0fu"/>
+                            <constraint firstItem="OU0-Xn-YD9" firstAttribute="top" secondItem="ZxH-7I-Q9G" secondAttribute="top" constant="125" id="vxj-UP-xzS"/>
                             <constraint firstItem="hiI-gK-lkV" firstAttribute="leading" secondItem="ZxH-7I-Q9G" secondAttribute="leading" type="default" id="wJP-IA-lET"/>
+                            <constraint firstItem="lQR-hH-pzn" firstAttribute="bottom" secondItem="hfD-ko-XN7" secondAttribute="bottom" type="default" id="yBm-Cx-ceM"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Wheel" image="tab_wheel.png" id="kDy-er-apw"/>
@@ -237,7 +236,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6TJ-Im-jFg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="831" y="-328"/>
+            <point key="canvasLocation" x="825" y="-333"/>
         </scene>
         <!--Wheel Of Year Detail View Controller-->
         <scene sceneID="qd8-L8-guS">
@@ -247,21 +246,29 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U64-UQ-Lhm">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vJ9-lh-LRl"/>
+                            <webView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ewK-Dr-YFf">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="321" id="ktz-W6-fjn"/>
+                                    <constraint firstAttribute="width" constant="240" id="pmn-cU-zJv"/>
+                                </constraints>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="U64-UQ-Lhm" firstAttribute="top" secondItem="Hco-e7-Nrs" secondAttribute="top" constant="263" id="WG3-mJ-WUy"/>
-                            <constraint firstItem="U64-UQ-Lhm" firstAttribute="centerX" secondItem="Hco-e7-Nrs" secondAttribute="centerX" type="default" id="crM-NX-4vf"/>
+                            <constraint firstItem="vJ9-lh-LRl" firstAttribute="trailing" secondItem="Hco-e7-Nrs" secondAttribute="trailing" type="default" id="9ae-6f-gQA"/>
+                            <constraint firstItem="vJ9-lh-LRl" firstAttribute="bottom" secondItem="Hco-e7-Nrs" secondAttribute="bottom" type="default" id="Gai-Dc-jbw"/>
+                            <constraint firstItem="ewK-Dr-YFf" firstAttribute="leading" secondItem="Hco-e7-Nrs" secondAttribute="leading" constant="51" id="KPb-Tb-xGO"/>
+                            <constraint firstItem="vJ9-lh-LRl" firstAttribute="leading" secondItem="Hco-e7-Nrs" secondAttribute="leading" type="default" id="Pg0-GV-KzF"/>
+                            <constraint firstItem="vJ9-lh-LRl" firstAttribute="top" secondItem="Hco-e7-Nrs" secondAttribute="top" type="default" id="stI-2d-zfm"/>
+                            <constraint firstItem="ewK-Dr-YFf" firstAttribute="bottom" secondItem="Hco-e7-Nrs" secondAttribute="bottom" type="default" id="u84-d8-l17"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3cV-Qz-enw"/>
                     <connections>
-                        <outlet property="_titleLabel" destination="U64-UQ-Lhm" id="puz-AZ-czy"/>
+                        <outlet property="_backgroundImage" destination="vJ9-lh-LRl" id="IPv-kp-i16"/>
+                        <outlet property="_infoView" destination="ewK-Dr-YFf" id="ESG-Zl-7jJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6C-sC-fa4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -327,11 +334,9 @@
         <class className="WheelOfYearDetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WheelOfYearDetailViewController.h"/>
             <relationships>
-                <relationship kind="outlet" name="_titleLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="_backgroundImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="_infoView" candidateClass="UIWebView"/>
             </relationships>
-        </class>
-        <class className="WheelView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WheelView.h"/>
         </class>
         <class className="WheelViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WheelViewController.h"/>

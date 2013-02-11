@@ -8,6 +8,8 @@
 
 #import "WheelOfYearDetailViewController.h"
 
+#import "DataManager.h"
+
 @interface WheelOfYearDetailViewController ()
 
 @end
@@ -26,8 +28,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    _titleLabel.text = _holyday;
-	// Do any additional setup after loading the view.
+    _dataObject = [DataManager.instance getHoliday: _holiday];
+    _backgroundImage.image = [UIImage imageNamed: _dataObject.backgroundFilename];
+    [_infoView loadHTMLString: _dataObject.info baseURL: [NSURL URLWithString: @"http://www.google.com"]];
+    _infoView.backgroundColor = [UIColor clearColor];
+    _infoView.scrollView.scrollEnabled = NO;
+    _infoView.scrollView.bounces = NO;
+}
+
+- (void) viewWillAppear:(BOOL)animated {
+    
 }
 
 - (void)didReceiveMemoryWarning

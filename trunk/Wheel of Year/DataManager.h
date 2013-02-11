@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Holiday.h"
 
 @interface DataManager : NSObject
++ (DataManager *)instance;
+
+@property (strong, nonatomic) NSDictionary *wheel;
+
+-(Holiday *) getHoliday: (NSString *) holiday;
 
 @end

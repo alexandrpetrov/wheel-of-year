@@ -42,8 +42,8 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     WheelOfYearDetailViewController *targetController = (WheelOfYearDetailViewController *) segue.destinationViewController;
-    NSArray *holidays = @[@"Samhein", @"Midwinter", @"Imbolc", @"Ostara", @"Beltane", @"Midsummer", @"Lughnasad", @"Mabon"];
-    targetController.holyday = [holidays objectAtIndex: ((UIButton *) sender).tag - 1];
+    NSArray *holidays = @[@"Samhein", @"Midwinter", @"Imbolc", @"Ostara", @"Beltane", @"Midsummer", @"Lughnasadh", @"Mabon"];
+    targetController.holiday = [holidays objectAtIndex: ((UIButton *) sender).tag - 1];
     [super prepareForSegue: segue sender: sender];
 }
 

@@ -26,12 +26,68 @@
 		C3C1D18E16752C01001EA075 /* tab_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D18C16752C01001EA075 /* tab_wheel.png */; };
 		C3C70BA616619A4900342949 /* WheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA516619A4900342949 /* WheelViewController.m */; };
 		C3C70BA916619C1F00342949 /* WheelOfYearDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */; };
-		E217469016C8444F0041A9E5 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E217468F16C8444F0041A9E5 /* DataManager.m */; };
+		E25F310416C97F7700238464 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F310316C97F7700238464 /* DataManager.m */; };
+		E25F311C16C9855500238464 /* libsbjson-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F311416C97F9A00238464 /* libsbjson-ios.a */; };
+		E25F311E16C98A8200238464 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E217468C16C841700041A9E5 /* data.json */; };
+		E25F314416C9A85400238464 /* Beltane_iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F313816C9A85400238464 /* Beltane_iphone5.png */; };
+		E25F314516C9A85400238464 /* Imbolc_iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F313916C9A85400238464 /* Imbolc_iphone5.png */; };
+		E25F314616C9A85400238464 /* Beltane_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F313A16C9A85400238464 /* Beltane_normal.png */; };
+		E25F314716C9A85400238464 /* Imbolc_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F313B16C9A85400238464 /* Imbolc_normal.png */; };
+		E25F314816C9A85400238464 /* Midsummer_iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F313C16C9A85400238464 /* Midsummer_iphone5.png */; };
+		E25F314916C9A85400238464 /* Midsummer_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F313D16C9A85400238464 /* Midsummer_normal.png */; };
+		E25F314A16C9A85400238464 /* Lughnasadh_iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F313E16C9A85400238464 /* Lughnasadh_iphone5.png */; };
+		E25F314B16C9A85400238464 /* Lughnasadh_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F313F16C9A85400238464 /* Lughnasadh_normal.png */; };
+		E25F314C16C9A85400238464 /* Mabon_iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F314016C9A85400238464 /* Mabon_iphone5.png */; };
+		E25F314D16C9A85400238464 /* Mabon_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F314116C9A85400238464 /* Mabon_normal.png */; };
+		E25F314E16C9A85400238464 /* Ostara_iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F314216C9A85400238464 /* Ostara_iphone5.png */; };
+		E25F314F16C9A85400238464 /* Ostara_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F314316C9A85400238464 /* Ostara_normal.png */; };
+		E25F315616C9A88F00238464 /* Samhein_iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F315216C9A88F00238464 /* Samhein_iphone5.png */; };
+		E25F315716C9A88F00238464 /* Samhein_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F315316C9A88F00238464 /* Samhein_normal.png */; };
+		E25F315A16C9A8FF00238464 /* Midwinter_iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F315816C9A8FF00238464 /* Midwinter_iphone5.png */; };
+		E25F315B16C9A8FF00238464 /* Midwinter_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E25F315916C9A8FF00238464 /* Midwinter_normal.png */; };
+		E25F315E16C9A93300238464 /* Holiday.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F315D16C9A93300238464 /* Holiday.m */; };
 		E2C0D9D716C8227700BF6FAA /* wheel_image_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C0D9D616C8227700BF6FAA /* wheel_image_normal.png */; };
 		E2C0D9D916C8228B00BF6FAA /* wheel_background_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C0D9D816C8228B00BF6FAA /* wheel_background_normal.png */; };
-		E2C0D9DD16C82D2300BF6FAA /* WheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C0D9DC16C82D2300BF6FAA /* WheelView.m */; };
 		E2C0D9DF16C837ED00BF6FAA /* MainStoryboard_iPhone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C0D9DE16C837ED00BF6FAA /* MainStoryboard_iPhone5.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E25F310F16C97F9A00238464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25F310516C97F9900238464 /* SBJson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC12323D1391D5CC00131607;
+			remoteInfo = SBJson;
+		};
+		E25F311116C97F9A00238464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25F310516C97F9900238464 /* SBJson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC1232521391D5CC00131607;
+			remoteInfo = SBJsonTests;
+		};
+		E25F311316C97F9A00238464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25F310516C97F9900238464 /* SBJson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCC2626913920FC7003D9994;
+			remoteInfo = "sbjson-ios";
+		};
+		E25F311516C97F9A00238464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25F310516C97F9900238464 /* SBJson.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCC2627313920FC7003D9994;
+			remoteInfo = "sbjson-iosTests";
+		};
+		E25F311A16C9853400238464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E25F310516C97F9900238464 /* SBJson.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC12323C1391D5CC00131607;
+			remoteInfo = SBJson;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C30B5BD6165F7C4900E8C0D7 /* Wheel of Year.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheel of Year.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,12 +116,29 @@
 		C3C70BA716619C1F00342949 /* WheelOfYearDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelOfYearDetailViewController.h; sourceTree = "<group>"; };
 		C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelOfYearDetailViewController.m; sourceTree = "<group>"; };
 		E217468C16C841700041A9E5 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		E217468E16C8444F0041A9E5 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
-		E217468F16C8444F0041A9E5 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		E25F310216C97F7700238464 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		E25F310316C97F7700238464 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		E25F310516C97F9900238464 /* SBJson.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SBJson.xcodeproj; path = "Wheel of Year/json-framework-master/SBJson.xcodeproj"; sourceTree = "<group>"; };
+		E25F313816C9A85400238464 /* Beltane_iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beltane_iphone5.png; sourceTree = "<group>"; };
+		E25F313916C9A85400238464 /* Imbolc_iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Imbolc_iphone5.png; sourceTree = "<group>"; };
+		E25F313A16C9A85400238464 /* Beltane_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beltane_normal.png; sourceTree = "<group>"; };
+		E25F313B16C9A85400238464 /* Imbolc_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Imbolc_normal.png; sourceTree = "<group>"; };
+		E25F313C16C9A85400238464 /* Midsummer_iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Midsummer_iphone5.png; sourceTree = "<group>"; };
+		E25F313D16C9A85400238464 /* Midsummer_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Midsummer_normal.png; sourceTree = "<group>"; };
+		E25F313E16C9A85400238464 /* Lughnasadh_iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lughnasadh_iphone5.png; sourceTree = "<group>"; };
+		E25F313F16C9A85400238464 /* Lughnasadh_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lughnasadh_normal.png; sourceTree = "<group>"; };
+		E25F314016C9A85400238464 /* Mabon_iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mabon_iphone5.png; sourceTree = "<group>"; };
+		E25F314116C9A85400238464 /* Mabon_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mabon_normal.png; sourceTree = "<group>"; };
+		E25F314216C9A85400238464 /* Ostara_iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ostara_iphone5.png; sourceTree = "<group>"; };
+		E25F314316C9A85400238464 /* Ostara_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ostara_normal.png; sourceTree = "<group>"; };
+		E25F315216C9A88F00238464 /* Samhein_iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Samhein_iphone5.png; sourceTree = "<group>"; };
+		E25F315316C9A88F00238464 /* Samhein_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Samhein_normal.png; sourceTree = "<group>"; };
+		E25F315816C9A8FF00238464 /* Midwinter_iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Midwinter_iphone5.png; sourceTree = "<group>"; };
+		E25F315916C9A8FF00238464 /* Midwinter_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Midwinter_normal.png; sourceTree = "<group>"; };
+		E25F315C16C9A93300238464 /* Holiday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Holiday.h; sourceTree = "<group>"; };
+		E25F315D16C9A93300238464 /* Holiday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Holiday.m; sourceTree = "<group>"; };
 		E2C0D9D616C8227700BF6FAA /* wheel_image_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel_image_normal.png; sourceTree = "<group>"; };
 		E2C0D9D816C8228B00BF6FAA /* wheel_background_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel_background_normal.png; sourceTree = "<group>"; };
-		E2C0D9DB16C82D2300BF6FAA /* WheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelView.h; sourceTree = "<group>"; };
-		E2C0D9DC16C82D2300BF6FAA /* WheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelView.m; sourceTree = "<group>"; };
 		E2C0D9DE16C837ED00BF6FAA /* MainStoryboard_iPhone5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone5.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25F311C16C9855500238464 /* libsbjson-ios.a in Frameworks */,
 				C30B5BDB165F7C4900E8C0D7 /* UIKit.framework in Frameworks */,
 				C30B5BDD165F7C4900E8C0D7 /* Foundation.framework in Frameworks */,
 				C30B5BDF165F7C4900E8C0D7 /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +160,7 @@
 		C30B5BCB165F7C4800E8C0D7 = {
 			isa = PBXGroup;
 			children = (
+				E25F310516C97F9900238464 /* SBJson.xcodeproj */,
 				C30B5BE0165F7C4900E8C0D7 /* Wheel of Year */,
 				C30B5BD9165F7C4900E8C0D7 /* Frameworks */,
 				C30B5BD7165F7C4900E8C0D7 /* Products */,
@@ -171,6 +246,7 @@
 		C3C1D16716751793001EA075 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E217468C16C841700041A9E5 /* data.json */,
 				C3C1D169167517A3001EA075 /* iPhone */,
 			);
 			name = Resources;
@@ -179,6 +255,7 @@
 		C3C1D169167517A3001EA075 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				E25F311F16C9A7C500238464 /* Holiday View */,
 				C3C1D172167520C3001EA075 /* Tabs */,
 				C3C1D17016751F35001EA075 /* wheel_image.png */,
 				C3C1D16C16751E25001EA075 /* wheel_background.png */,
@@ -203,7 +280,6 @@
 			isa = PBXGroup;
 			children = (
 				E217468D16C8442F0041A9E5 /* Data Manager */,
-				E217468C16C841700041A9E5 /* data.json */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -211,17 +287,52 @@
 		E217468D16C8442F0041A9E5 /* Data Manager */ = {
 			isa = PBXGroup;
 			children = (
-				E217468E16C8444F0041A9E5 /* DataManager.h */,
-				E217468F16C8444F0041A9E5 /* DataManager.m */,
+				E25F310216C97F7700238464 /* DataManager.h */,
+				E25F310316C97F7700238464 /* DataManager.m */,
+				E25F315C16C9A93300238464 /* Holiday.h */,
+				E25F315D16C9A93300238464 /* Holiday.m */,
 			);
 			name = "Data Manager";
 			sourceTree = "<group>";
 		};
+		E25F310616C97F9900238464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25F311016C97F9A00238464 /* SBJson.framework */,
+				E25F311216C97F9A00238464 /* SBJsonTests.octest */,
+				E25F311416C97F9A00238464 /* libsbjson-ios.a */,
+				E25F311616C97F9A00238464 /* sbjson-iosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25F311F16C9A7C500238464 /* Holiday View */ = {
+			isa = PBXGroup;
+			children = (
+				E25F315816C9A8FF00238464 /* Midwinter_iphone5.png */,
+				E25F315916C9A8FF00238464 /* Midwinter_normal.png */,
+				E25F315216C9A88F00238464 /* Samhein_iphone5.png */,
+				E25F315316C9A88F00238464 /* Samhein_normal.png */,
+				E25F313816C9A85400238464 /* Beltane_iphone5.png */,
+				E25F313A16C9A85400238464 /* Beltane_normal.png */,
+				E25F313916C9A85400238464 /* Imbolc_iphone5.png */,
+				E25F313B16C9A85400238464 /* Imbolc_normal.png */,
+				E25F313C16C9A85400238464 /* Midsummer_iphone5.png */,
+				E25F313D16C9A85400238464 /* Midsummer_normal.png */,
+				E25F313E16C9A85400238464 /* Lughnasadh_iphone5.png */,
+				E25F313F16C9A85400238464 /* Lughnasadh_normal.png */,
+				E25F314016C9A85400238464 /* Mabon_iphone5.png */,
+				E25F314116C9A85400238464 /* Mabon_normal.png */,
+				E25F314216C9A85400238464 /* Ostara_iphone5.png */,
+				E25F314316C9A85400238464 /* Ostara_normal.png */,
+			);
+			name = "Holiday View";
+			path = "Wheel of Year/Resources/iPhone/Holiday View";
+			sourceTree = SOURCE_ROOT;
+		};
 		E2C0D9DA16C82D0600BF6FAA /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
-				E2C0D9DB16C82D2300BF6FAA /* WheelView.h */,
-				E2C0D9DC16C82D2300BF6FAA /* WheelView.m */,
 			);
 			name = Subviews;
 			sourceTree = "<group>";
@@ -240,6 +351,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E25F311B16C9853400238464 /* PBXTargetDependency */,
 			);
 			name = "Wheel of Year";
 			productName = "Wheel of Year";
@@ -266,12 +378,49 @@
 			mainGroup = C30B5BCB165F7C4800E8C0D7;
 			productRefGroup = C30B5BD7165F7C4900E8C0D7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E25F310616C97F9900238464 /* Products */;
+					ProjectRef = E25F310516C97F9900238464 /* SBJson.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C30B5BD5165F7C4900E8C0D7 /* Wheel of Year */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E25F311016C97F9A00238464 /* SBJson.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SBJson.framework;
+			remoteRef = E25F310F16C97F9A00238464 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E25F311216C97F9A00238464 /* SBJsonTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SBJsonTests.octest;
+			remoteRef = E25F311116C97F9A00238464 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E25F311416C97F9A00238464 /* libsbjson-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libsbjson-ios.a";
+			remoteRef = E25F311316C97F9A00238464 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E25F311616C97F9A00238464 /* sbjson-iosTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "sbjson-iosTests.octest";
+			remoteRef = E25F311516C97F9A00238464 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C30B5BD4165F7C4900E8C0D7 /* Resources */ = {
@@ -293,6 +442,23 @@
 				E2C0D9D716C8227700BF6FAA /* wheel_image_normal.png in Resources */,
 				E2C0D9D916C8228B00BF6FAA /* wheel_background_normal.png in Resources */,
 				E2C0D9DF16C837ED00BF6FAA /* MainStoryboard_iPhone5.storyboard in Resources */,
+				E25F311E16C98A8200238464 /* data.json in Resources */,
+				E25F314416C9A85400238464 /* Beltane_iphone5.png in Resources */,
+				E25F314516C9A85400238464 /* Imbolc_iphone5.png in Resources */,
+				E25F314616C9A85400238464 /* Beltane_normal.png in Resources */,
+				E25F314716C9A85400238464 /* Imbolc_normal.png in Resources */,
+				E25F314816C9A85400238464 /* Midsummer_iphone5.png in Resources */,
+				E25F314916C9A85400238464 /* Midsummer_normal.png in Resources */,
+				E25F314A16C9A85400238464 /* Lughnasadh_iphone5.png in Resources */,
+				E25F314B16C9A85400238464 /* Lughnasadh_normal.png in Resources */,
+				E25F314C16C9A85400238464 /* Mabon_iphone5.png in Resources */,
+				E25F314D16C9A85400238464 /* Mabon_normal.png in Resources */,
+				E25F314E16C9A85400238464 /* Ostara_iphone5.png in Resources */,
+				E25F314F16C9A85400238464 /* Ostara_normal.png in Resources */,
+				E25F315616C9A88F00238464 /* Samhein_iphone5.png in Resources */,
+				E25F315716C9A88F00238464 /* Samhein_normal.png in Resources */,
+				E25F315A16C9A8FF00238464 /* Midwinter_iphone5.png in Resources */,
+				E25F315B16C9A8FF00238464 /* Midwinter_normal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,12 +473,20 @@
 				C30B5BEB165F7C4900E8C0D7 /* WYAppDelegate.m in Sources */,
 				C3C70BA616619A4900342949 /* WheelViewController.m in Sources */,
 				C3C70BA916619C1F00342949 /* WheelOfYearDetailViewController.m in Sources */,
-				E2C0D9DD16C82D2300BF6FAA /* WheelView.m in Sources */,
-				E217469016C8444F0041A9E5 /* DataManager.m in Sources */,
+				E25F310416C97F7700238464 /* DataManager.m in Sources */,
+				E25F315E16C9A93300238464 /* Holiday.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E25F311B16C9853400238464 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SBJson;
+			targetProxy = E25F311A16C9853400238464 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C30B5BE3165F7C4900E8C0D7 /* InfoPlist.strings */ = {
@@ -345,7 +519,7 @@
 		C30B5BFB165F7C4900E8C0D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -374,7 +548,7 @@
 		C30B5BFC165F7C4900E8C0D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -401,6 +575,7 @@
 				GCC_PREFIX_HEADER = "Wheel of Year/Wheel of Year-Prefix.pch";
 				INFOPLIST_FILE = "Wheel of Year/Wheel of Year-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
