@@ -14,4 +14,5 @@
 @property (strong, nonatomic) NSString *date;
 @property (strong, nonatomic) NSString *info;
 @property (strong, nonatomic, readonly) NSString *backgroundFilename;
+@property (strong, nonatomic) NSDictionary *nextDates;
 @end

@@ -35,6 +35,7 @@
     newHoliday.name = holiday;
     newHoliday.date = [holidayDictionary objectForKey: @"date"];
     newHoliday.info = [holidayDictionary objectForKey: @"info"];
+    newHoliday.nextDates = [holidayDictionary objectForKey: @"next_dates"];
     return newHoliday;
 }
 

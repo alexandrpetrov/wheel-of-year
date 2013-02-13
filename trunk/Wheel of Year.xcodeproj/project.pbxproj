@@ -18,6 +18,11 @@
 		C30B5BF1165F7C4900E8C0D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30B5BF0165F7C4900E8C0D7 /* Default-568h@2x.png */; };
 		C30B5BF4165F7C4900E8C0D7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30B5BF2165F7C4900E8C0D7 /* MainStoryboard_iPhone.storyboard */; };
 		C30B5BF7165F7C4900E8C0D7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30B5BF5165F7C4900E8C0D7 /* MainStoryboard_iPad.storyboard */; };
+		C3868CDC16CA5461002A8583 /* HolidayDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3868CDB16CA5461002A8583 /* HolidayDateView.xib */; };
+		C3868CEB16CA69BA002A8583 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3868CEA16CA69BA002A8583 /* EventKit.framework */; };
+		C3868CF016CA9957002A8583 /* HolidayDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3868CEF16CA9957002A8583 /* HolidayDateView.m */; };
+		C3868CF516CA9D43002A8583 /* CalendarPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3868CF416CA9D43002A8583 /* CalendarPopupView.m */; };
+		C3868CF816CAA063002A8583 /* CalendarPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3868CF716CAA063002A8583 /* CalendarPopupViewController.m */; };
 		C3C1D16D16751E25001EA075 /* wheel_background.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D16C16751E25001EA075 /* wheel_background.png */; };
 		C3C1D17116751F35001EA075 /* wheel_image.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D17016751F35001EA075 /* wheel_image.png */; };
 		C3C1D17C16752523001EA075 /* tab_sun.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D17916752523001EA075 /* tab_sun.png */; };
@@ -105,6 +110,14 @@
 		C30B5BF0165F7C4900E8C0D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C30B5BF3165F7C4900E8C0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		C30B5BF6165F7C4900E8C0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C3868CDB16CA5461002A8583 /* HolidayDateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HolidayDateView.xib; sourceTree = "<group>"; };
+		C3868CEA16CA69BA002A8583 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		C3868CEE16CA9957002A8583 /* HolidayDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolidayDateView.h; sourceTree = "<group>"; };
+		C3868CEF16CA9957002A8583 /* HolidayDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HolidayDateView.m; sourceTree = "<group>"; };
+		C3868CF316CA9D43002A8583 /* CalendarPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarPopupView.h; sourceTree = "<group>"; };
+		C3868CF416CA9D43002A8583 /* CalendarPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarPopupView.m; sourceTree = "<group>"; };
+		C3868CF616CAA063002A8583 /* CalendarPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarPopupViewController.h; sourceTree = "<group>"; };
+		C3868CF716CAA063002A8583 /* CalendarPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarPopupViewController.m; sourceTree = "<group>"; };
 		C3C1D16C16751E25001EA075 /* wheel_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel_background.png; sourceTree = "<group>"; };
 		C3C1D17016751F35001EA075 /* wheel_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel_image.png; sourceTree = "<group>"; };
 		C3C1D17916752523001EA075 /* tab_sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_sun.png; sourceTree = "<group>"; };
@@ -151,6 +164,7 @@
 				C30B5BDB165F7C4900E8C0D7 /* UIKit.framework in Frameworks */,
 				C30B5BDD165F7C4900E8C0D7 /* Foundation.framework in Frameworks */,
 				C30B5BDF165F7C4900E8C0D7 /* CoreGraphics.framework in Frameworks */,
+				C3868CEB16CA69BA002A8583 /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +192,7 @@
 		C30B5BD9165F7C4900E8C0D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3868CEA16CA69BA002A8583 /* EventKit.framework */,
 				C30B5BDA165F7C4900E8C0D7 /* UIKit.framework */,
 				C30B5BDC165F7C4900E8C0D7 /* Foundation.framework */,
 				C30B5BDE165F7C4900E8C0D7 /* CoreGraphics.framework */,
@@ -221,15 +236,18 @@
 				C32CD357165F7CCC001804EB /* User Layer */,
 			);
 			name = Classes;
-			sourceTree = "<group>";
+			path = "Wheel of Year/Classes";
+			sourceTree = SOURCE_ROOT;
 		};
 		C32CD357165F7CCC001804EB /* User Layer */ = {
 			isa = PBXGroup;
 			children = (
+				C3868CEC16CA95DA002A8583 /* General */,
 				C32CD358165F7CD3001804EB /* WheelOfYear */,
 			);
 			name = "User Layer";
-			sourceTree = "<group>";
+			path = "Wheel of Year/Classes/User Layer";
+			sourceTree = SOURCE_ROOT;
 		};
 		C32CD358165F7CD3001804EB /* WheelOfYear */ = {
 			isa = PBXGroup;
@@ -241,7 +259,29 @@
 				C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */,
 			);
 			name = WheelOfYear;
-			sourceTree = "<group>";
+			path = "Wheel of Year/Classes/User Layer/WheelOfYear";
+			sourceTree = SOURCE_ROOT;
+		};
+		C3868CEC16CA95DA002A8583 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				C3868CED16CA95EB002A8583 /* Calendar Popup */,
+			);
+			name = General;
+			path = "Wheel of Year/Classes/User Layer/General";
+			sourceTree = SOURCE_ROOT;
+		};
+		C3868CED16CA95EB002A8583 /* Calendar Popup */ = {
+			isa = PBXGroup;
+			children = (
+				C3868CF316CA9D43002A8583 /* CalendarPopupView.h */,
+				C3868CF416CA9D43002A8583 /* CalendarPopupView.m */,
+				C3868CF616CAA063002A8583 /* CalendarPopupViewController.h */,
+				C3868CF716CAA063002A8583 /* CalendarPopupViewController.m */,
+			);
+			name = "Calendar Popup";
+			path = "Wheel of Year/Classes/User Layer/General/Calendar Popup";
+			sourceTree = SOURCE_ROOT;
 		};
 		C3C1D16716751793001EA075 /* Resources */ = {
 			isa = PBXGroup;
@@ -333,9 +373,13 @@
 		E2C0D9DA16C82D0600BF6FAA /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
+				C3868CEE16CA9957002A8583 /* HolidayDateView.h */,
+				C3868CEF16CA9957002A8583 /* HolidayDateView.m */,
+				C3868CDB16CA5461002A8583 /* HolidayDateView.xib */,
 			);
 			name = Subviews;
-			sourceTree = "<group>";
+			path = "Wheel of Year/Classes/User Layer/WheelOfYear/Subviews";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -459,6 +503,7 @@
 				E25F315716C9A88F00238464 /* Samhein_normal.png in Resources */,
 				E25F315A16C9A8FF00238464 /* Midwinter_iphone5.png in Resources */,
 				E25F315B16C9A8FF00238464 /* Midwinter_normal.png in Resources */,
+				C3868CDC16CA5461002A8583 /* HolidayDateView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +520,9 @@
 				C3C70BA916619C1F00342949 /* WheelOfYearDetailViewController.m in Sources */,
 				E25F310416C97F7700238464 /* DataManager.m in Sources */,
 				E25F315E16C9A93300238464 /* Holiday.m in Sources */,
+				C3868CF016CA9957002A8583 /* HolidayDateView.m in Sources */,
+				C3868CF516CA9D43002A8583 /* CalendarPopupView.m in Sources */,
+				C3868CF816CAA063002A8583 /* CalendarPopupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +622,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wheel of Year/Wheel of Year-Prefix.pch";
 				INFOPLIST_FILE = "Wheel of Year/Wheel of Year-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
 				WRAPPER_EXTENSION = app;
@@ -586,6 +635,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wheel of Year/Wheel of Year-Prefix.pch";
 				INFOPLIST_FILE = "Wheel of Year/Wheel of Year-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

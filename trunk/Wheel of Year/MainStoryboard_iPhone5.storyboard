@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12A269" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="0r5-Lg-DeD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="0r5-Lg-DeD">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
     </dependencies>
     <scenes>
         <!--View Controller - Moon-->
@@ -57,13 +57,14 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wheel_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="lI8-Fr-s83"/>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wheel_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="TGv-k1-HVU"/>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ZW-Rg-Urk">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="71" id="h6k-es-bNU"/>
-                                    <constraint firstAttribute="height" constant="68" id="qog-ZA-wsW"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wheel_background.png" id="lI8-Fr-s83">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="wheel_image.png" id="TGv-k1-HVU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8ZW-Rg-Urk">
+                                <rect key="frame" x="23" y="90" width="71" height="68"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -76,11 +77,8 @@
                                     <action selector="buttonHolydayPressed:" destination="8bk-6V-WaY" eventType="touchUpInside" id="jEH-WQ-ttb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDx-oE-S1I">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="97" id="FqU-2a-N2H"/>
-                                    <constraint firstAttribute="height" constant="34" id="c7h-Wa-zLk"/>
-                                </constraints>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CDx-oE-S1I">
+                                <rect key="frame" x="114" y="66" width="97" height="34"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -93,11 +91,8 @@
                                     <action selector="buttonHolydayPressed:" destination="8bk-6V-WaY" eventType="touchUpInside" id="Ufa-kF-tTE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WpA-fh-aeJ">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="63" id="GqP-V3-DQe"/>
-                                    <constraint firstAttribute="width" constant="56" id="OHH-PK-YN9"/>
-                                </constraints>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WpA-fh-aeJ">
+                                <rect key="frame" x="232" y="92" width="56" height="63"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -110,11 +105,8 @@
                                     <action selector="buttonHolydayPressed:" destination="8bk-6V-WaY" eventType="touchUpInside" id="wr4-yt-x2n"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KoC-3c-ym4">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="BJK-9x-PAH"/>
-                                    <constraint firstAttribute="width" constant="36" id="qPv-Up-jjQ"/>
-                                </constraints>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KoC-3c-ym4">
+                                <rect key="frame" x="284" y="163" width="36" height="75"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -127,11 +119,8 @@
                                     <action selector="buttonHolydayPressed:" destination="8bk-6V-WaY" eventType="touchUpInside" id="Ocw-gl-0ec"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PyT-Js-Rqp">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="2yA-uB-Y3Y"/>
-                                    <constraint firstAttribute="height" constant="66" id="MuC-IH-VXn"/>
-                                </constraints>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PyT-Js-Rqp">
+                                <rect key="frame" x="232" y="259" width="73" height="66"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -144,11 +133,8 @@
                                     <action selector="buttonHolydayPressed:" destination="8bk-6V-WaY" eventType="touchUpInside" id="16R-y9-o6y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3K1-u1-xOq">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="116" id="22y-O7-9iM"/>
-                                    <constraint firstAttribute="height" constant="29" id="n2e-8d-KTA"/>
-                                </constraints>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3K1-u1-xOq">
+                                <rect key="frame" x="104" y="328" width="116" height="29"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -161,11 +147,8 @@
                                     <action selector="buttonHolydayPressed:" destination="8bk-6V-WaY" eventType="touchUpInside" id="IIz-fb-W3R"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBU-0c-hR1">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="67" id="PeL-u8-Hw4"/>
-                                    <constraint firstAttribute="height" constant="68" id="nOJ-Qd-lUn"/>
-                                </constraints>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XBU-0c-hR1">
+                                <rect key="frame" x="27" y="275" width="67" height="68"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -178,11 +161,8 @@
                                     <action selector="buttonHolydayPressed:" destination="8bk-6V-WaY" eventType="touchUpInside" id="5a9-26-eTN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1j-eJ-pXK">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="72" id="SaN-cK-J03"/>
-                                    <constraint firstAttribute="width" constant="35" id="bgC-gp-piZ"/>
-                                </constraints>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="b1j-eJ-pXK">
+                                <rect key="frame" x="0.0" y="166" width="35" height="72"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -197,33 +177,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="3K1-u1-xOq" firstAttribute="centerX" secondItem="CDx-oE-S1I" secondAttribute="centerX" type="default" id="4F5-Ec-EOd"/>
-                            <constraint firstItem="KoC-3c-ym4" firstAttribute="top" secondItem="WpA-fh-aeJ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="4px-s1-Ko2"/>
-                            <constraint firstItem="TGv-k1-HVU" firstAttribute="top" secondItem="Pb6-Vb-pqO" secondAttribute="top" type="default" id="4w0-xg-8v7"/>
-                            <constraint firstItem="TGv-k1-HVU" firstAttribute="bottom" secondItem="Pb6-Vb-pqO" secondAttribute="bottom" type="default" id="61x-h3-08e"/>
-                            <constraint firstAttribute="trailing" secondItem="PyT-Js-Rqp" secondAttribute="trailing" constant="15" id="7xh-lm-ZNc"/>
-                            <constraint firstItem="KoC-3c-ym4" firstAttribute="trailing" secondItem="Pb6-Vb-pqO" secondAttribute="trailing" type="default" id="Ah6-ew-hdp"/>
-                            <constraint firstItem="TGv-k1-HVU" firstAttribute="leading" secondItem="Pb6-Vb-pqO" secondAttribute="leading" type="default" id="B43-SC-fLt"/>
-                            <constraint firstItem="CDx-oE-S1I" firstAttribute="top" secondItem="Pb6-Vb-pqO" secondAttribute="top" constant="66" id="Bie-bN-kpq"/>
-                            <constraint firstAttribute="bottom" secondItem="PyT-Js-Rqp" secondAttribute="bottom" constant="130" id="ERv-5O-NBK"/>
-                            <constraint firstItem="lI8-Fr-s83" firstAttribute="leading" secondItem="Pb6-Vb-pqO" secondAttribute="leading" type="default" id="GKv-0G-Chy"/>
-                            <constraint firstItem="8ZW-Rg-Urk" firstAttribute="trailing" secondItem="XBU-0c-hR1" secondAttribute="trailing" priority="1" type="user" id="HU4-zM-UQG"/>
-                            <constraint firstItem="b1j-eJ-pXK" firstAttribute="bottom" secondItem="KoC-3c-ym4" secondAttribute="bottom" type="default" id="Lqo-4f-xD0"/>
-                            <constraint firstItem="lI8-Fr-s83" firstAttribute="bottom" secondItem="Pb6-Vb-pqO" secondAttribute="bottom" type="default" id="ON4-l0-JUi"/>
-                            <constraint firstItem="lI8-Fr-s83" firstAttribute="top" secondItem="Pb6-Vb-pqO" secondAttribute="top" type="default" id="QjW-TF-gng"/>
-                            <constraint firstAttribute="bottom" secondItem="3K1-u1-xOq" secondAttribute="bottom" constant="98" id="SCj-Z0-PQo"/>
-                            <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="XBU-0c-hR1" secondAttribute="bottom" constant="112" type="user" id="Wym-mo-EcJ"/>
-                            <constraint firstItem="TGv-k1-HVU" firstAttribute="trailing" secondItem="Pb6-Vb-pqO" secondAttribute="trailing" type="default" id="b6c-Bh-CyC"/>
-                            <constraint firstItem="b1j-eJ-pXK" firstAttribute="leading" secondItem="Pb6-Vb-pqO" secondAttribute="leading" type="default" id="fu9-gb-qpc"/>
-                            <constraint firstItem="lI8-Fr-s83" firstAttribute="trailing" secondItem="Pb6-Vb-pqO" secondAttribute="trailing" type="default" id="kb2-qZ-Hgd"/>
-                            <constraint firstItem="b1j-eJ-pXK" firstAttribute="top" secondItem="8ZW-Rg-Urk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="pX3-zN-iAy"/>
-                            <constraint firstAttribute="bottom" secondItem="XBU-0c-hR1" secondAttribute="bottom" constant="112" id="qWn-mZ-qAf"/>
-                            <constraint firstItem="PyT-Js-Rqp" firstAttribute="leading" secondItem="WpA-fh-aeJ" secondAttribute="leading" type="default" id="qhJ-0n-vnl"/>
-                            <constraint firstItem="3K1-u1-xOq" firstAttribute="leading" secondItem="Pb6-Vb-pqO" secondAttribute="leading" constant="104" id="t1m-2o-Hb6"/>
-                            <constraint firstItem="8ZW-Rg-Urk" firstAttribute="top" secondItem="Pb6-Vb-pqO" secondAttribute="top" constant="90" id="tWE-dl-hVI"/>
-                            <constraint firstItem="8ZW-Rg-Urk" firstAttribute="leading" secondItem="Pb6-Vb-pqO" secondAttribute="leading" constant="23" id="w4Y-Yu-fDB"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Wheel" image="tab_wheel.png" id="uGS-Gc-Cf9"/>
                     <navigationItem key="navigationItem" id="m9s-6L-hOs"/>
@@ -245,29 +198,25 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IVB-JO-drc"/>
-                            <webView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JEU-bX-99f">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="IVB-JO-drc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" bouncesZoom="NO" id="p3t-Kd-wvk">
+                                <rect key="frame" x="52" y="410" width="240" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </scrollView>
+                            <webView opaque="NO" contentMode="scaleToFill" id="JEU-bX-99f">
+                                <rect key="frame" x="52" y="57.5" width="240" height="354.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="AES-1o-Oia"/>
-                                    <constraint firstAttribute="height" constant="397" id="G2b-d1-FfM"/>
-                                </constraints>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="JEU-bX-99f" firstAttribute="bottom" secondItem="zdf-3Q-9DK" secondAttribute="bottom" type="default" id="52Q-rz-YFf"/>
-                            <constraint firstItem="JEU-bX-99f" firstAttribute="leading" secondItem="zdf-3Q-9DK" secondAttribute="leading" constant="52" id="Jzy-Uu-GRC"/>
-                            <constraint firstItem="IVB-JO-drc" firstAttribute="leading" secondItem="zdf-3Q-9DK" secondAttribute="leading" type="default" id="VwD-6m-0JM"/>
-                            <constraint firstItem="IVB-JO-drc" firstAttribute="bottom" secondItem="zdf-3Q-9DK" secondAttribute="bottom" type="default" id="ePc-KV-qg0"/>
-                            <constraint firstItem="IVB-JO-drc" firstAttribute="top" secondItem="zdf-3Q-9DK" secondAttribute="top" type="default" id="jAK-b0-Ums"/>
-                            <constraint firstItem="IVB-JO-drc" firstAttribute="trailing" secondItem="zdf-3Q-9DK" secondAttribute="trailing" type="default" id="wV9-pV-QGU"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lDw-fO-o9u"/>
                     <connections>
                         <outlet property="_backgroundImage" destination="IVB-JO-drc" id="MPK-g0-wY0"/>
                         <outlet property="_infoView" destination="JEU-bX-99f" id="GHQ-fz-GiH"/>
+                        <outlet property="_scrollView" destination="p3t-Kd-wvk" id="CLT-Dt-bFy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ew0-sQ-3OF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -325,14 +274,12 @@
         <image name="wheel_image.png" width="640" height="960"/>
     </resources>
     <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
         <class className="WheelOfYearDetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WheelOfYearDetailViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="_backgroundImage" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="_infoView" candidateClass="UIWebView"/>
+                <relationship kind="outlet" name="_scrollView" candidateClass="UIScrollView"/>
             </relationships>
         </class>
         <class className="WheelViewController" superclassName="UIViewController">
