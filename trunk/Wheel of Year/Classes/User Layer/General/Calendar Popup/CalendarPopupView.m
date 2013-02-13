@@ -1,0 +1,31 @@
+//
+//  CalendarPopupView.m
+//  Wheel of Year
+//
+//  Created by Administrator on 2/12/13.
+//  Copyright (c) 2013 Alexandr Petrov. All rights reserved.
+//
+
+#import "CalendarPopupView.h"
+
+@implementation CalendarPopupView
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+    }
+    return self;
+}
+
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect
+{
+    // Drawing code
+}
+*/
+
+@end
