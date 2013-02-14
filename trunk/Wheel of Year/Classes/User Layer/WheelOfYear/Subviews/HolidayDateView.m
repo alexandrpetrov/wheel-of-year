@@ -22,8 +22,4 @@
     return self;
 }
 
--(IBAction) addToCalendarButtonPressed: (UIButton *) sender {
-    [_parentController addToCallendarButtonPressed: sender];
-}
-
 @end

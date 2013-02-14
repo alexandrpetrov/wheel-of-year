@@ -49,11 +49,10 @@
         }
         return NSOrderedSame;
     }];
-    NSLog(@"%@", years);
     for(NSString *year in years) {
         NSArray *nib_objects = [[NSBundle mainBundle] loadNibNamed:(@"HolidayDateView") owner:self options:nil];
         HolidayDateView *holidayDateView = [nib_objects objectAtIndex:0];
-        holidayDateView.frame = CGRectMake(yearNo * 240, 0, 240, 41);
+        holidayDateView.frame = CGRectMake(yearNo * _scrollView.frame.size.width, 0, _scrollView.frame.size.width, _scrollView.frame.size.height);
         holidayDateView.yearLabel.text = year;
         NSDateFormatter *rfc3339Formatter = [[NSDateFormatter alloc] init];
         NSLocale *enUSPOSIXLocale = [[NSLocale alloc] initWithLocaleIdentifier: @"en_US_POSIX"];
@@ -89,7 +88,7 @@
         }
         NSArray *nib_objects = [[NSBundle mainBundle] loadNibNamed:(@"HolidayDateView") owner:self options:nil];
         HolidayDateView *holidayDateView = [nib_objects objectAtIndex:0];
-        holidayDateView.frame = CGRectMake(0, 0, 240, 41);
+        holidayDateView.frame = CGRectMake(0, 0, _scrollView.frame.size.width, _scrollView.frame.size.height);
         holidayDateView.yearLabel.text = year;
         holidayDateView.dateLabel.text = date;
         holidayDateView.holidayName = _holiday;
@@ -97,7 +96,8 @@
         [_scrollView addSubview: holidayDateView];
         yearNo++;
     }
-    _scrollView.contentSize = CGSizeMake(240 * yearNo, 41);
+    _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width * yearNo, _scrollView.frame.size.height);
+    [self setImageForiCalButton];
 }
 
 - (void) viewWillAppear:(BOOL)animated {
@@ -110,8 +110,13 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void) addToCallendarButtonPressed: (UIButton *) sender {
+-(IBAction) iCalButtonPressed: (UIButton *) sender {
     [self performSegueWithIdentifier: @"showCalendarPopupView" sender: self];
+}
+
+-(void) setImageForiCalButton {
+    NSString *buttonImage = [NSString stringWithFormat: @"ical_%@_button", [_holiday lowercaseString]];
+    [iCalButton setBackgroundImage: [UIImage imageNamed: buttonImage] forState: UIControlStateNormal];
 }
 
 @end

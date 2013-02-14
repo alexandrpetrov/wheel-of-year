@@ -15,11 +15,8 @@
 
 @property IBOutlet UILabel *yearLabel;
 @property IBOutlet UILabel *dateLabel;
-@property IBOutlet UIButton *addToCalendarButton;
 @property IBOutlet NSString *holidayName;
 @property IBOutlet NSDate *holidayDate;
 @property (weak, nonatomic) WheelOfYearDetailViewController *parentController;
-
--(IBAction) addToCalendarButtonPressed: (UIButton *) sender;
 
 @end

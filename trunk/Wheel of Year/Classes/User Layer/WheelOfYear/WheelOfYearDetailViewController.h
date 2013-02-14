@@ -13,11 +13,12 @@
     IBOutlet UIImageView *_backgroundImage;
     IBOutlet UIWebView *_infoView;
     IBOutlet UIScrollView *_scrollView;
+    IBOutlet UIButton *iCalButton;
 }
 
 @property (nonatomic, strong) NSString *holiday;
 @property (nonatomic, strong) Holiday *dataObject;
 
--(void) addToCallendarButtonPressed: (UIButton *) sender;
+-(IBAction) iCalButtonPressed: (UIButton *) sender;
 
 @end

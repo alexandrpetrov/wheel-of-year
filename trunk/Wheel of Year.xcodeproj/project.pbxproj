@@ -31,6 +31,49 @@
 		C3C1D18E16752C01001EA075 /* tab_wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C1D18C16752C01001EA075 /* tab_wheel.png */; };
 		C3C70BA616619A4900342949 /* WheelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA516619A4900342949 /* WheelViewController.m */; };
 		C3C70BA916619C1F00342949 /* WheelOfYearDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */; };
+		E24D35FB16CD733200EF2821 /* moon_background_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D35F916CD733200EF2821 /* moon_background_normal.png */; };
+		E24D35FC16CD733200EF2821 /* moon_background_iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D35FA16CD733200EF2821 /* moon_background_iphone5.png */; };
+		E24D360016CD75DA00EF2821 /* CrescentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E24D35FF16CD75DA00EF2821 /* CrescentView.m */; };
+		E24D362016CD876F00EF2821 /* lunar_phase_23.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360216CD876F00EF2821 /* lunar_phase_23.png */; };
+		E24D362116CD876F00EF2821 /* lunar_phase_28.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360316CD876F00EF2821 /* lunar_phase_28.png */; };
+		E24D362216CD876F00EF2821 /* lunar_phase_27.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360416CD876F00EF2821 /* lunar_phase_27.png */; };
+		E24D362316CD876F00EF2821 /* lunar_phase_26.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360516CD876F00EF2821 /* lunar_phase_26.png */; };
+		E24D362416CD876F00EF2821 /* lunar_phase_25.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360616CD876F00EF2821 /* lunar_phase_25.png */; };
+		E24D362516CD876F00EF2821 /* lunar_phase_24.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360716CD876F00EF2821 /* lunar_phase_24.png */; };
+		E24D362616CD876F00EF2821 /* lunar_phase_22.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360816CD876F00EF2821 /* lunar_phase_22.png */; };
+		E24D362716CD876F00EF2821 /* lunar_phase_21.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360916CD876F00EF2821 /* lunar_phase_21.png */; };
+		E24D362816CD876F00EF2821 /* lunar_phase_20.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360A16CD876F00EF2821 /* lunar_phase_20.png */; };
+		E24D362916CD876F00EF2821 /* lunar_phase_19.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360B16CD876F00EF2821 /* lunar_phase_19.png */; };
+		E24D362A16CD876F00EF2821 /* lunar_phase_18.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360C16CD876F00EF2821 /* lunar_phase_18.png */; };
+		E24D362B16CD876F00EF2821 /* lunar_phase_17.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360D16CD876F00EF2821 /* lunar_phase_17.png */; };
+		E24D362C16CD876F00EF2821 /* lunar_phase_16.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360E16CD876F00EF2821 /* lunar_phase_16.png */; };
+		E24D362D16CD876F00EF2821 /* lunar_phase_15.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D360F16CD876F00EF2821 /* lunar_phase_15.png */; };
+		E24D362E16CD876F00EF2821 /* lunar_phase_14.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361016CD876F00EF2821 /* lunar_phase_14.png */; };
+		E24D362F16CD876F00EF2821 /* lunar_phase_13.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361116CD876F00EF2821 /* lunar_phase_13.png */; };
+		E24D363016CD876F00EF2821 /* lunar_phase_12.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361216CD876F00EF2821 /* lunar_phase_12.png */; };
+		E24D363116CD876F00EF2821 /* lunar_phase_11.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361316CD876F00EF2821 /* lunar_phase_11.png */; };
+		E24D363216CD876F00EF2821 /* lunar_phase_10.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361416CD876F00EF2821 /* lunar_phase_10.png */; };
+		E24D363316CD876F00EF2821 /* lunar_phase_9.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361516CD876F00EF2821 /* lunar_phase_9.png */; };
+		E24D363416CD876F00EF2821 /* lunar_phase_8.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361616CD876F00EF2821 /* lunar_phase_8.png */; };
+		E24D363516CD876F00EF2821 /* lunar_phase_7.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361716CD876F00EF2821 /* lunar_phase_7.png */; };
+		E24D363616CD876F00EF2821 /* lunar_phase_6.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361816CD876F00EF2821 /* lunar_phase_6.png */; };
+		E24D363716CD876F00EF2821 /* lunar_phase_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361916CD876F00EF2821 /* lunar_phase_5.png */; };
+		E24D363816CD876F00EF2821 /* lunar_phase_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361A16CD876F00EF2821 /* lunar_phase_4.png */; };
+		E24D363916CD876F00EF2821 /* lunar_phase_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361B16CD876F00EF2821 /* lunar_phase_3.png */; };
+		E24D363A16CD876F00EF2821 /* lunar_phase_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361C16CD876F00EF2821 /* lunar_phase_2.png */; };
+		E24D363B16CD876F00EF2821 /* lunar_phase_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361D16CD876F00EF2821 /* lunar_phase_1.png */; };
+		E24D363C16CD876F00EF2821 /* lunar_phase_0.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361E16CD876F00EF2821 /* lunar_phase_0.png */; };
+		E24D363D16CD876F00EF2821 /* lunar_phase_29.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D361F16CD876F00EF2821 /* lunar_phase_29.png */; };
+		E24D364016CD8A0000EF2821 /* MoonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24D363F16CD8A0000EF2821 /* MoonViewController.m */; };
+		E24D364316CD8A6200EF2821 /* MoonView.m in Sources */ = {isa = PBXBuildFile; fileRef = E24D364216CD8A6200EF2821 /* MoonView.m */; };
+		E24D364E16CD8D9E00EF2821 /* ical_lughnasadh_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D364616CD8D9E00EF2821 /* ical_lughnasadh_button.png */; };
+		E24D364F16CD8D9E00EF2821 /* ical_midsummer_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D364716CD8D9E00EF2821 /* ical_midsummer_button.png */; };
+		E24D365016CD8D9E00EF2821 /* ical_mabon_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D364816CD8D9E00EF2821 /* ical_mabon_button.png */; };
+		E24D365116CD8D9E00EF2821 /* ical_beltane_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D364916CD8D9E00EF2821 /* ical_beltane_button.png */; };
+		E24D365216CD8D9E00EF2821 /* ical_ostara_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D364A16CD8D9E00EF2821 /* ical_ostara_button.png */; };
+		E24D365316CD8D9E00EF2821 /* ical_samhein_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D364B16CD8D9E00EF2821 /* ical_samhein_button.png */; };
+		E24D365416CD8D9E00EF2821 /* ical_midwinter_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D364C16CD8D9E00EF2821 /* ical_midwinter_button.png */; };
+		E24D365516CD8D9E00EF2821 /* ical_imbolc_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E24D364D16CD8D9E00EF2821 /* ical_imbolc_button.png */; };
 		E25F310416C97F7700238464 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F310316C97F7700238464 /* DataManager.m */; };
 		E25F311C16C9855500238464 /* libsbjson-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F311416C97F9A00238464 /* libsbjson-ios.a */; };
 		E25F311E16C98A8200238464 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E217468C16C841700041A9E5 /* data.json */; };
@@ -129,6 +172,52 @@
 		C3C70BA716619C1F00342949 /* WheelOfYearDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelOfYearDetailViewController.h; sourceTree = "<group>"; };
 		C3C70BA816619C1F00342949 /* WheelOfYearDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelOfYearDetailViewController.m; sourceTree = "<group>"; };
 		E217468C16C841700041A9E5 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E24D35F916CD733200EF2821 /* moon_background_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon_background_normal.png; sourceTree = "<group>"; };
+		E24D35FA16CD733200EF2821 /* moon_background_iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon_background_iphone5.png; sourceTree = "<group>"; };
+		E24D35FE16CD75DA00EF2821 /* CrescentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrescentView.h; sourceTree = "<group>"; };
+		E24D35FF16CD75DA00EF2821 /* CrescentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrescentView.m; sourceTree = "<group>"; };
+		E24D360216CD876F00EF2821 /* lunar_phase_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_23.png; sourceTree = "<group>"; };
+		E24D360316CD876F00EF2821 /* lunar_phase_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_28.png; sourceTree = "<group>"; };
+		E24D360416CD876F00EF2821 /* lunar_phase_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_27.png; sourceTree = "<group>"; };
+		E24D360516CD876F00EF2821 /* lunar_phase_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_26.png; sourceTree = "<group>"; };
+		E24D360616CD876F00EF2821 /* lunar_phase_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_25.png; sourceTree = "<group>"; };
+		E24D360716CD876F00EF2821 /* lunar_phase_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_24.png; sourceTree = "<group>"; };
+		E24D360816CD876F00EF2821 /* lunar_phase_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_22.png; sourceTree = "<group>"; };
+		E24D360916CD876F00EF2821 /* lunar_phase_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_21.png; sourceTree = "<group>"; };
+		E24D360A16CD876F00EF2821 /* lunar_phase_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_20.png; sourceTree = "<group>"; };
+		E24D360B16CD876F00EF2821 /* lunar_phase_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_19.png; sourceTree = "<group>"; };
+		E24D360C16CD876F00EF2821 /* lunar_phase_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_18.png; sourceTree = "<group>"; };
+		E24D360D16CD876F00EF2821 /* lunar_phase_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_17.png; sourceTree = "<group>"; };
+		E24D360E16CD876F00EF2821 /* lunar_phase_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_16.png; sourceTree = "<group>"; };
+		E24D360F16CD876F00EF2821 /* lunar_phase_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_15.png; sourceTree = "<group>"; };
+		E24D361016CD876F00EF2821 /* lunar_phase_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_14.png; sourceTree = "<group>"; };
+		E24D361116CD876F00EF2821 /* lunar_phase_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_13.png; sourceTree = "<group>"; };
+		E24D361216CD876F00EF2821 /* lunar_phase_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_12.png; sourceTree = "<group>"; };
+		E24D361316CD876F00EF2821 /* lunar_phase_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_11.png; sourceTree = "<group>"; };
+		E24D361416CD876F00EF2821 /* lunar_phase_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_10.png; sourceTree = "<group>"; };
+		E24D361516CD876F00EF2821 /* lunar_phase_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_9.png; sourceTree = "<group>"; };
+		E24D361616CD876F00EF2821 /* lunar_phase_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_8.png; sourceTree = "<group>"; };
+		E24D361716CD876F00EF2821 /* lunar_phase_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_7.png; sourceTree = "<group>"; };
+		E24D361816CD876F00EF2821 /* lunar_phase_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_6.png; sourceTree = "<group>"; };
+		E24D361916CD876F00EF2821 /* lunar_phase_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_5.png; sourceTree = "<group>"; };
+		E24D361A16CD876F00EF2821 /* lunar_phase_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_4.png; sourceTree = "<group>"; };
+		E24D361B16CD876F00EF2821 /* lunar_phase_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_3.png; sourceTree = "<group>"; };
+		E24D361C16CD876F00EF2821 /* lunar_phase_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_2.png; sourceTree = "<group>"; };
+		E24D361D16CD876F00EF2821 /* lunar_phase_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_1.png; sourceTree = "<group>"; };
+		E24D361E16CD876F00EF2821 /* lunar_phase_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_0.png; sourceTree = "<group>"; };
+		E24D361F16CD876F00EF2821 /* lunar_phase_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunar_phase_29.png; sourceTree = "<group>"; };
+		E24D363E16CD8A0000EF2821 /* MoonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoonViewController.h; sourceTree = "<group>"; };
+		E24D363F16CD8A0000EF2821 /* MoonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoonViewController.m; sourceTree = "<group>"; };
+		E24D364116CD8A6100EF2821 /* MoonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoonView.h; sourceTree = "<group>"; };
+		E24D364216CD8A6200EF2821 /* MoonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoonView.m; sourceTree = "<group>"; };
+		E24D364616CD8D9E00EF2821 /* ical_lughnasadh_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ical_lughnasadh_button.png; sourceTree = "<group>"; };
+		E24D364716CD8D9E00EF2821 /* ical_midsummer_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ical_midsummer_button.png; sourceTree = "<group>"; };
+		E24D364816CD8D9E00EF2821 /* ical_mabon_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ical_mabon_button.png; sourceTree = "<group>"; };
+		E24D364916CD8D9E00EF2821 /* ical_beltane_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ical_beltane_button.png; sourceTree = "<group>"; };
+		E24D364A16CD8D9E00EF2821 /* ical_ostara_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ical_ostara_button.png; sourceTree = "<group>"; };
+		E24D364B16CD8D9E00EF2821 /* ical_samhein_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ical_samhein_button.png; sourceTree = "<group>"; };
+		E24D364C16CD8D9E00EF2821 /* ical_midwinter_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ical_midwinter_button.png; sourceTree = "<group>"; };
+		E24D364D16CD8D9E00EF2821 /* ical_imbolc_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ical_imbolc_button.png; sourceTree = "<group>"; };
 		E25F310216C97F7700238464 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		E25F310316C97F7700238464 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 		E25F310516C97F9900238464 /* SBJson.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SBJson.xcodeproj; path = "Wheel of Year/json-framework-master/SBJson.xcodeproj"; sourceTree = "<group>"; };
@@ -242,6 +331,7 @@
 		C32CD357165F7CCC001804EB /* User Layer */ = {
 			isa = PBXGroup;
 			children = (
+				E24D35FD16CD756400EF2821 /* Moon */,
 				C3868CEC16CA95DA002A8583 /* General */,
 				C32CD358165F7CD3001804EB /* WheelOfYear */,
 			);
@@ -295,6 +385,7 @@
 		C3C1D169167517A3001EA075 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				E24D35F816CD72C300EF2821 /* Moon View */,
 				E25F311F16C9A7C500238464 /* Holiday View */,
 				C3C1D172167520C3001EA075 /* Tabs */,
 				C3C1D17016751F35001EA075 /* wheel_image.png */,
@@ -335,6 +426,85 @@
 			name = "Data Manager";
 			sourceTree = "<group>";
 		};
+		E24D35F816CD72C300EF2821 /* Moon View */ = {
+			isa = PBXGroup;
+			children = (
+				E24D360116CD874F00EF2821 /* Moon Phases */,
+				E24D35F916CD733200EF2821 /* moon_background_normal.png */,
+				E24D35FA16CD733200EF2821 /* moon_background_iphone5.png */,
+			);
+			name = "Moon View";
+			path = "Wheel of Year/Resources/iPhone/Moon View";
+			sourceTree = SOURCE_ROOT;
+		};
+		E24D35FD16CD756400EF2821 /* Moon */ = {
+			isa = PBXGroup;
+			children = (
+				E24D35FE16CD75DA00EF2821 /* CrescentView.h */,
+				E24D35FF16CD75DA00EF2821 /* CrescentView.m */,
+				E24D363E16CD8A0000EF2821 /* MoonViewController.h */,
+				E24D363F16CD8A0000EF2821 /* MoonViewController.m */,
+				E24D364116CD8A6100EF2821 /* MoonView.h */,
+				E24D364216CD8A6200EF2821 /* MoonView.m */,
+			);
+			name = Moon;
+			path = "Wheel of Year/Classes/User Layer/Moon";
+			sourceTree = SOURCE_ROOT;
+		};
+		E24D360116CD874F00EF2821 /* Moon Phases */ = {
+			isa = PBXGroup;
+			children = (
+				E24D360316CD876F00EF2821 /* lunar_phase_28.png */,
+				E24D360416CD876F00EF2821 /* lunar_phase_27.png */,
+				E24D360516CD876F00EF2821 /* lunar_phase_26.png */,
+				E24D360616CD876F00EF2821 /* lunar_phase_25.png */,
+				E24D360716CD876F00EF2821 /* lunar_phase_24.png */,
+				E24D360216CD876F00EF2821 /* lunar_phase_23.png */,
+				E24D360816CD876F00EF2821 /* lunar_phase_22.png */,
+				E24D360916CD876F00EF2821 /* lunar_phase_21.png */,
+				E24D360A16CD876F00EF2821 /* lunar_phase_20.png */,
+				E24D360B16CD876F00EF2821 /* lunar_phase_19.png */,
+				E24D360C16CD876F00EF2821 /* lunar_phase_18.png */,
+				E24D360D16CD876F00EF2821 /* lunar_phase_17.png */,
+				E24D360E16CD876F00EF2821 /* lunar_phase_16.png */,
+				E24D360F16CD876F00EF2821 /* lunar_phase_15.png */,
+				E24D361016CD876F00EF2821 /* lunar_phase_14.png */,
+				E24D361116CD876F00EF2821 /* lunar_phase_13.png */,
+				E24D361216CD876F00EF2821 /* lunar_phase_12.png */,
+				E24D361316CD876F00EF2821 /* lunar_phase_11.png */,
+				E24D361416CD876F00EF2821 /* lunar_phase_10.png */,
+				E24D361516CD876F00EF2821 /* lunar_phase_9.png */,
+				E24D361616CD876F00EF2821 /* lunar_phase_8.png */,
+				E24D361716CD876F00EF2821 /* lunar_phase_7.png */,
+				E24D361816CD876F00EF2821 /* lunar_phase_6.png */,
+				E24D361916CD876F00EF2821 /* lunar_phase_5.png */,
+				E24D361A16CD876F00EF2821 /* lunar_phase_4.png */,
+				E24D361B16CD876F00EF2821 /* lunar_phase_3.png */,
+				E24D361C16CD876F00EF2821 /* lunar_phase_2.png */,
+				E24D361D16CD876F00EF2821 /* lunar_phase_1.png */,
+				E24D361E16CD876F00EF2821 /* lunar_phase_0.png */,
+				E24D361F16CD876F00EF2821 /* lunar_phase_29.png */,
+			);
+			name = "Moon Phases";
+			path = "Wheel of Year/Resources/iPhone/Moon View/Moon Phases";
+			sourceTree = SOURCE_ROOT;
+		};
+		E24D364516CD8D5700EF2821 /* iCal Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E24D364616CD8D9E00EF2821 /* ical_lughnasadh_button.png */,
+				E24D364716CD8D9E00EF2821 /* ical_midsummer_button.png */,
+				E24D364816CD8D9E00EF2821 /* ical_mabon_button.png */,
+				E24D364916CD8D9E00EF2821 /* ical_beltane_button.png */,
+				E24D364A16CD8D9E00EF2821 /* ical_ostara_button.png */,
+				E24D364B16CD8D9E00EF2821 /* ical_samhein_button.png */,
+				E24D364C16CD8D9E00EF2821 /* ical_midwinter_button.png */,
+				E24D364D16CD8D9E00EF2821 /* ical_imbolc_button.png */,
+			);
+			name = "iCal Buttons";
+			path = "Wheel of Year/Resources/iPhone/Holiday View/iCal Buttons";
+			sourceTree = SOURCE_ROOT;
+		};
 		E25F310616C97F9900238464 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,6 +519,7 @@
 		E25F311F16C9A7C500238464 /* Holiday View */ = {
 			isa = PBXGroup;
 			children = (
+				E24D364516CD8D5700EF2821 /* iCal Buttons */,
 				E25F315816C9A8FF00238464 /* Midwinter_iphone5.png */,
 				E25F315916C9A8FF00238464 /* Midwinter_normal.png */,
 				E25F315216C9A88F00238464 /* Samhein_iphone5.png */,
@@ -504,6 +675,46 @@
 				E25F315A16C9A8FF00238464 /* Midwinter_iphone5.png in Resources */,
 				E25F315B16C9A8FF00238464 /* Midwinter_normal.png in Resources */,
 				C3868CDC16CA5461002A8583 /* HolidayDateView.xib in Resources */,
+				E24D35FB16CD733200EF2821 /* moon_background_normal.png in Resources */,
+				E24D35FC16CD733200EF2821 /* moon_background_iphone5.png in Resources */,
+				E24D362016CD876F00EF2821 /* lunar_phase_23.png in Resources */,
+				E24D362116CD876F00EF2821 /* lunar_phase_28.png in Resources */,
+				E24D362216CD876F00EF2821 /* lunar_phase_27.png in Resources */,
+				E24D362316CD876F00EF2821 /* lunar_phase_26.png in Resources */,
+				E24D362416CD876F00EF2821 /* lunar_phase_25.png in Resources */,
+				E24D362516CD876F00EF2821 /* lunar_phase_24.png in Resources */,
+				E24D362616CD876F00EF2821 /* lunar_phase_22.png in Resources */,
+				E24D362716CD876F00EF2821 /* lunar_phase_21.png in Resources */,
+				E24D362816CD876F00EF2821 /* lunar_phase_20.png in Resources */,
+				E24D362916CD876F00EF2821 /* lunar_phase_19.png in Resources */,
+				E24D362A16CD876F00EF2821 /* lunar_phase_18.png in Resources */,
+				E24D362B16CD876F00EF2821 /* lunar_phase_17.png in Resources */,
+				E24D362C16CD876F00EF2821 /* lunar_phase_16.png in Resources */,
+				E24D362D16CD876F00EF2821 /* lunar_phase_15.png in Resources */,
+				E24D362E16CD876F00EF2821 /* lunar_phase_14.png in Resources */,
+				E24D362F16CD876F00EF2821 /* lunar_phase_13.png in Resources */,
+				E24D363016CD876F00EF2821 /* lunar_phase_12.png in Resources */,
+				E24D363116CD876F00EF2821 /* lunar_phase_11.png in Resources */,
+				E24D363216CD876F00EF2821 /* lunar_phase_10.png in Resources */,
+				E24D363316CD876F00EF2821 /* lunar_phase_9.png in Resources */,
+				E24D363416CD876F00EF2821 /* lunar_phase_8.png in Resources */,
+				E24D363516CD876F00EF2821 /* lunar_phase_7.png in Resources */,
+				E24D363616CD876F00EF2821 /* lunar_phase_6.png in Resources */,
+				E24D363716CD876F00EF2821 /* lunar_phase_5.png in Resources */,
+				E24D363816CD876F00EF2821 /* lunar_phase_4.png in Resources */,
+				E24D363916CD876F00EF2821 /* lunar_phase_3.png in Resources */,
+				E24D363A16CD876F00EF2821 /* lunar_phase_2.png in Resources */,
+				E24D363B16CD876F00EF2821 /* lunar_phase_1.png in Resources */,
+				E24D363C16CD876F00EF2821 /* lunar_phase_0.png in Resources */,
+				E24D363D16CD876F00EF2821 /* lunar_phase_29.png in Resources */,
+				E24D364E16CD8D9E00EF2821 /* ical_lughnasadh_button.png in Resources */,
+				E24D364F16CD8D9E00EF2821 /* ical_midsummer_button.png in Resources */,
+				E24D365016CD8D9E00EF2821 /* ical_mabon_button.png in Resources */,
+				E24D365116CD8D9E00EF2821 /* ical_beltane_button.png in Resources */,
+				E24D365216CD8D9E00EF2821 /* ical_ostara_button.png in Resources */,
+				E24D365316CD8D9E00EF2821 /* ical_samhein_button.png in Resources */,
+				E24D365416CD8D9E00EF2821 /* ical_midwinter_button.png in Resources */,
+				E24D365516CD8D9E00EF2821 /* ical_imbolc_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +734,9 @@
 				C3868CF016CA9957002A8583 /* HolidayDateView.m in Sources */,
 				C3868CF516CA9D43002A8583 /* CalendarPopupView.m in Sources */,
 				C3868CF816CAA063002A8583 /* CalendarPopupViewController.m in Sources */,
+				E24D360016CD75DA00EF2821 /* CrescentView.m in Sources */,
+				E24D364016CD8A0000EF2821 /* MoonViewController.m in Sources */,
+				E24D364316CD8A6200EF2821 /* MoonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

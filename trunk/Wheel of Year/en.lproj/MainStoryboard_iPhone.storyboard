@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2w8-oM-ted">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12A269" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2w8-oM-ted">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Moon-->
+        <!--Moon View Controller - Moon-->
         <scene sceneID="2TF-9K-SL0">
             <objects>
-                <viewController id="oWG-G5-f2B" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zY6-vH-THc">
+                <viewController id="oWG-G5-f2B" customClass="MoonViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zY6-vH-THc" customClass="MoonView">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="moon_background_normal.png" id="EbV-zb-Yee">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="411"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="1O1-7N-Pdf" customClass="CrescentView">
+                                <rect key="frame" x="86" y="148" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" id="g7f-Gd-VWh">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="imageCrescent" destination="g7f-Gd-VWh" id="Icc-N1-X4g"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="crescent" destination="1O1-7N-Pdf" id="blS-SS-TCc"/>
+                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Moon" image="tab_moon.png" id="w5V-nh-cXu"/>
                 </viewController>
@@ -202,13 +225,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" bouncesZoom="NO" id="7SR-KZ-DX8">
-                                <rect key="frame" x="51" y="326" width="240" height="41"/>
+                                <rect key="frame" x="51" y="326" width="163" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </scrollView>
                             <webView opaque="NO" contentMode="scaleToFill" id="ewK-Dr-YFf">
                                 <rect key="frame" x="51" y="46.5" width="240" height="282.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NRt-YA-M2k">
+                                <rect key="frame" x="214" y="332" width="78" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="iCalButtonPressed:" destination="R59-0R-Oxi" eventType="touchUpInside" id="k4h-sg-OAT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -217,6 +255,7 @@
                         <outlet property="_backgroundImage" destination="vJ9-lh-LRl" id="IPv-kp-i16"/>
                         <outlet property="_infoView" destination="ewK-Dr-YFf" id="ESG-Zl-7jJ"/>
                         <outlet property="_scrollView" destination="7SR-KZ-DX8" id="ZTh-EQ-RqR"/>
+                        <outlet property="iCalButton" destination="NRt-YA-M2k" id="gFi-kp-WBc"/>
                         <segue destination="AlA-6N-1lq" kind="push" identifier="showCalendarPopupView" id="24B-I5-ZRw"/>
                     </connections>
                 </viewController>
@@ -243,7 +282,7 @@
                                     <!--2013-02-12 16:18:24 +0000-->
                                 </date>
                                 <timeZone key="timeZone" name="America/Los_Angeles">
-                                    <mutableData key="data">
+                                    <data key="data">
 VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
 y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
 5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
@@ -261,7 +300,7 @@ f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
 AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
 AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
 AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
-</mutableData>
+</data>
                                 </timeZone>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="33H-Kf-Q8X">
@@ -350,6 +389,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         </scene>
     </scenes>
     <resources>
+        <image name="moon_background_normal.png" width="640" height="792"/>
         <image name="tab_calendar.png" width="32" height="32"/>
         <image name="tab_moon.png" width="32" height="32"/>
         <image name="tab_sun.png" width="32" height="32"/>
@@ -370,13 +410,29 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <class className="CalendarPopupViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CalendarPopupViewController.h"/>
         </class>
+        <class className="CrescentView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CrescentView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageCrescent" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="MoonView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MoonView.h"/>
+            <relationships>
+                <relationship kind="outlet" name="crescent" candidateClass="CrescentView"/>
+            </relationships>
+        </class>
+        <class className="MoonViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MoonViewController.h"/>
+        </class>
         <class className="WheelOfYearDetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WheelOfYearDetailViewController.h"/>
             <relationships>
-                <relationship kind="action" name="addToCallendarButtonPressed:" candidateClass="UIButton"/>
+                <relationship kind="action" name="iCalButtonPressed:" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="_backgroundImage" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="_infoView" candidateClass="UIWebView"/>
                 <relationship kind="outlet" name="_scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="iCalButton" candidateClass="UIButton"/>
             </relationships>
         </class>
         <class className="WheelViewController" superclassName="UIViewController">
